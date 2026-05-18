@@ -1,7 +1,9 @@
 # DESAFIO TECNICO VR
 
+
 MFE Store VR
 Microfrontend desenvolvido com React, Vite e Module Federation.
+
 
 📦 Estrutura do Projeto
 O projeto é dividido em 4 aplicações:
@@ -9,6 +11,7 @@ O projeto é dividido em 4 aplicações:
 •	header → cabeçalho e carrinho 
 •	cards → listagem de produtos 
 •	footer → rodapé 
+
 
 🚀 Tecnologias utilizadas
 •	React 
@@ -19,11 +22,13 @@ O projeto é dividido em 4 aplicações:
 •	React Router DOM 
 •	Lucide React 
 
+
 ▶️ Como rodar o projeto
 Clone o repositório:
 git clone https://github.com/alinesobrinho/mfe-store.git
 Entre na pasta do projeto:
 cd mfe-store
+
 
 📥 Instalação das dependências
 Instale as dependências em cada microfrontend.
@@ -39,6 +44,7 @@ npm install
 Footer
 cd ../footer
 npm install
+
 
 ▶️ Rodando os microfrontends
 Abra um terminal para cada aplicação.
@@ -59,9 +65,11 @@ cd header
 npm run build
 npm run preview -- --port 4176
 
+
 🌐 Aplicação
 Após iniciar todos os microfrontends, acesse:
 http://localhost:4173
+
 
 🧪 Testes
 O projeto utiliza Vitest para execução de testes automatizados.
@@ -73,6 +81,7 @@ O comando executa os testes configurados no projeto e valida se a aplicação es
 Caso os testes estejam corretos, o terminal exibirá uma mensagem semelhante a:
 Tests passed
 
+
 ✅ Funcionalidades
 •	Listagem de produtos 
 •	Carrinho de compras 
@@ -83,6 +92,7 @@ Tests passed
 •	Finalização de compra 
 •	Login estilizado 
 •	Arquitetura microfrontend com Module Federation 
+
 
 👩‍💻 Desenvolvido por
 Aline Sobrinho
